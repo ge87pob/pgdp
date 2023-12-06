@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pgdp.convexhull.QuickHullTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-11-17T18:42:27" hostname="MacBook-Air.fritz.box" time="0.013">
+  <properties/>
+  <testcase name="testCombineHulls()" classname="pgdp.convexhull.QuickHullTest" time="0.008"/>
+  <testcase name="testTwoPointsOnRepeat()" classname="pgdp.convexhull.QuickHullTest" time="0.001"/>
+  <testcase name="testTwoPointsWithSameDistanceFromPQ()" classname="pgdp.convexhull.QuickHullTest" time="0.0"/>
+  <testcase name="testMultipleSamePoints()" classname="pgdp.convexhull.QuickHullTest" time="0.0"/>
+  <testcase name="testTwoPoints()" classname="pgdp.convexhull.QuickHullTest" time="0.0"/>
+  <testcase name="testCombineHullsWithShortArrays()" classname="pgdp.convexhull.QuickHullTest" time="0.0"/>
+  <system-out><![CDATA[Test 4/6 behaves like expected, great job!
+Test 2/6 behaves like expected, great job!
+Test 3/6 behaves like expected, great job!
+Test 1/6 behaves like expected, great job!
+Test 5/6 behaves like expected, great job!
+Test 6/6 behaves like expected, great job!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

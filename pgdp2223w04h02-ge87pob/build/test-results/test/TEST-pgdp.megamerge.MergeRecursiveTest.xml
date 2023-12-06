@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pgdp.megamerge.MergeRecursiveTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-11-19T10:22:31" hostname="MacBook-Air.fritz.box" time="0.025">
+  <properties/>
+  <testcase name="[1] [[1], [2], [3], [4]], 4, 4, []" classname="pgdp.megamerge.MergeRecursiveTest" time="0.012"/>
+  <testcase name="[2] [[1], [2], [3], [4]], 3, 4, [4]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.001"/>
+  <testcase name="[3] [[1], [2], [3], [4]], 2, 4, [3, 4]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[4] [[1], [2], [3], [4]], 1, 4, [2, 3, 4]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[5] [[1], [2], [3], [4]], 0, 4, [1, 2, 3, 4]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[6] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15]], 5, 5, []" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[7] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15]], 4, 5, [120, 121]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[8] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15]], 3, 5, [1, 2, 3, 120, 121]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[9] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15]], 2, 5, [1, 2, 2, 3, 5, 6, 120, 121]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.001"/>
+  <testcase name="[10] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15]], 1, 5, [0, 0, 0, 1, 2, 2, 3, 5, 6, 120, 121]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.001"/>
+  <testcase name="[11] [[1], [2], [3], [4]], 0, 4, [1, 2, 3, 4]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[12] [[3, 5], [2147483647], [-3, 8, 12], [-2147483648, 2147483647], [7, 11], [-2147483648], [-1, 0, 5]], 0, 7, [-2147483648, -2147483648, -3, -1, 0, 3, 5, 5, 7, 8, 11, 12, 2147483647, 2147483647]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[13] [[-7, 3, 10], [0, 0, 0], [2, 5, 6], [1, 2, 3], [120, 121], [-1, 1], [-5, 10, 15], [2]], 1, 5, [0, 0, 0, 1, 2, 2, 3, 5, 6, 120, 121]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <testcase name="[14] [[0], [1, 2], [3, 4], [0]], 1, 2, [1, 2]" classname="pgdp.megamerge.MergeRecursiveTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
