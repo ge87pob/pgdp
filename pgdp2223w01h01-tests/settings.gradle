@@ -1,0 +1,3 @@
+rootProject.name = 'W01H01---Hello-World-II-Tests'
+includeBuild('/Users/jan61/IdeaProjects/pgdp2223w01h01-ge87pob')
+// includeBuild('/path/to/repository-exercise')

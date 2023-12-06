@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pgdp.hello.HelloTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-11-08T16:35:05" hostname="MacBook-Air.local" time="0.155">
+  <properties/>
+  <testcase name="testHelloWorldPublic(IOTester)" classname="pgdp.hello.HelloTests" time="0.042"/>
+  <testcase name="testHelloWorld(IOTester)" classname="pgdp.hello.HelloTests" time="0.019"/>
+  <testcase name="countHiddenPinguPoints(IOTester)" classname="pgdp.hello.HelloTests" time="0.012"/>
+  <testcase name="hiddenPinguPointsThree()" classname="pgdp.hello.HelloTests" time="0.01"/>
+  <testcase name="hiddenPinguPointsOne()" classname="pgdp.hello.HelloTests" time="0.011"/>
+  <testcase name="hiddenPinguPointsTwo()" classname="pgdp.hello.HelloTests" time="0.011"/>
+  <system-out><![CDATA[Hello World
+Süßer Pingu!
+Hello World
+Süßer Pingu!
+Hello World
+Süßer Pingu!
+]]></system-out>
+  <system-err><![CDATA[[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+NOTICE: The warning above is expected and the issue is already known.
+        Visit https://github.com/ls1intum/Ares/discussions/113 for more details.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-1,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-1,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.testHelloWorldPublic(de.tum.in.test.api.io.IOTester)], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-2,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-2,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-3,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-3,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.testHelloWorld(de.tum.in.test.api.io.IOTester)], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-4,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-4,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-5,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-5,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.countHiddenPinguPoints(de.tum.in.test.api.io.IOTester)], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-6,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-6,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-7,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-7,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.hiddenPinguPointsThree()], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-8,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-8,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-9,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-9,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.hiddenPinguPointsOne()], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-10,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-10,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional.empty, executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-11,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-11,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+[DEBUG] [Test worker] Validated build configuration regarding trusted package rules, 0 are missing.
+[INFO] [Test worker] Request install with ASC-Impl [testMethod=Optional[public void pgdp.hello.HelloTests.hiddenPinguPointsTwo()], executionPath=/Users/jan61/IdeaProjects/pgdp2223w01h01-tests, whitelistedPaths=Optional[[PathRule["../pgdp2223*w01h01**" (GLOB) in WHITELIST; level READ], PathRule["target" (STARTS_WITH) in WHITELIST; level READ]]], blacklistedPaths=[PathRule["{test,target/test}**Test*.{java,class}" (GLOB) in BLACKLIST; level READ]], allowedLocalPorts=[], trustedPackages=[]]
+[INFO] [Test worker] Request whitelisting: Thread[ajts-to-12,5,Test-Threadgroup] []
+[INFO] [Test worker] Thread whitelisted: Thread[ajts-to-12,5,Test-Threadgroup]
+[INFO] [Test worker] Request uninstall
+]]></system-err>
+</testsuite>
